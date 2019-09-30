@@ -1,0 +1,98 @@
+*{
+	
+	box-sizing: border-box;
+}
+
+body{
+	background:linear-gradient(-46deg, #c3aee8, #fadd7f, #c8f79c, #f5db14);
+	background-size: 400% 400%;
+	animation:gradient 20s ease infinite;
+}
+
+@keyframes gradient{
+	0%{
+		background-position: 0% 50%;
+	}
+	50%{
+		background-position: 100% 50%;
+	}
+	100%{
+		background-position: 0% 50%;
+	}
+}
+
+
+.score {
+  border: 3px solid #eb348f;
+  border-radius: 4px;
+  margin: auto;
+  width: 100px;
+  margin-bottom: 10px;
+  padding: 10px;
+  font-size: 32px;
+  text-align: center;
+  position: relative;
+}
+
+.badge{
+	border: 3px solid #eb348f;
+	border-radius: 4px;
+	top: 0px;
+	padding: 10px;
+	background: #e66a45;
+	color: white;
+	font-size: 27px;
+	text-align: center;
+}
+
+#user-label{
+	position: absolute;
+	left: -74px;
+	
+}
+#comp-label{
+	position: absolute;
+	right: -89px;
+}
+
+.result{
+	font-size: 35px;
+	text-align: center;
+	margin-bottom: 10px;
+	
+}
+
+.choice{
+	display: inline-block;
+	border: 2px solid black;
+	border-radius: 4px;
+	margin: 0 3px;
+	padding: 5px
+	
+}
+
+.choice:hover{
+	cursor: pointer;
+	background: #eb348f;
+	transition: all 1s ease;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
